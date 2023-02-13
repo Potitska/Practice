@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1185e969-72dc-487c-b717-4024f75301f8" name="Changes" comment="HomeWork1">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeTime/freeTimeJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeTime/traine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeWork/work2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeWork/work2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWork/work1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork/work1/main.js" afterDir="false" />
+    <list default="true" id="1185e969-72dc-487c-b717-4024f75301f8" name="Changes" comment="HomeWork2">
+      <change afterPath="$PROJECT_DIR$/homeWork/work2/resolve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work2/resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work3/resolve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work3/resolve3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work4/homeWork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork/work4/homeWork1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeTime/freeTimeJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/freeTime/freeTimeJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeTime/traine.html" beforeDir="false" afterPath="$PROJECT_DIR$/freeTime/traine.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -45,6 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.TypeScript&quot;
   }
 }</component>
@@ -60,7 +63,13 @@
       <workItem from="1675352810947" duration="1647000" />
       <workItem from="1675354625802" duration="7101000" />
       <workItem from="1675613444344" duration="9039000" />
-      <workItem from="1675686086105" duration="4480000" />
+      <workItem from="1675686086105" duration="5264000" />
+      <workItem from="1675849525684" duration="4781000" />
+      <workItem from="1675874010004" duration="7285000" />
+      <workItem from="1675952010036" duration="3581000" />
+      <workItem from="1675968857213" duration="5263000" />
+      <workItem from="1676291389214" duration="628000" />
+      <workItem from="1676298892216" duration="10496000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork1">
       <created>1675354480685</created>
@@ -69,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675354480685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HomeWork2">
+      <created>1675705018952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675705018952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +104,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeWork1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1" />
+    <MESSAGE value="HomeWork2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/homeWork/work2/resolve.js</url>
+          <line>114</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/homeWork/work2/resolve.js</url>
+          <line>158</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/homeWork/work2/resolve.js</url>
+          <line>316</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
