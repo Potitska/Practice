@@ -1,4 +1,3 @@
-
 //example 1
 // let numberOfSiblings = 1+3;
 // let numberOfCandies = 8;
@@ -125,3 +124,127 @@ for(let i=1000; i<=2000; i=i+1) {
     tmp = tmp +'&#'+i+ ' ';
 }
 out.innerHTML = tmp;*/
+
+//resolve 4 - function!!!
+
+//створити функцію яка створює ul з елементами li. текст li задати через аргумент всім одинаковий. Кількість li визначається
+//другим аргументом, який є числовим (тут використовується цикл).
+// function foo(text, count) {
+//     document.write(`<ul>`);
+//     for (let i = 0; i < count; i++) {
+//    document.write(`<div>${text}</div>`);
+//     }
+//     document.write(`</ul>`);
+// }
+// foo(`Hello everybody!`,5);
+
+//Returning from Functions
+// function add(x,y) {
+//     return x+y;
+// }
+// let result = add(5,6);
+// console.log(result);
+
+//Returning from Functions
+// function avg(x,y,z) {
+//     return (x+y+z)/3;
+// }
+// let res = avg (5,6,7);
+//console.log(res);
+
+// створити функцію яка приймає масив примітивних елементів(числа,стрінги,булеві), та будує для них список
+// const array = [1, 2, `Hello`, true, false, [1, 2, 3]];
+//
+// function foo(arr) {
+//     document.write(`<ul>`);
+//     for (const item of array) {
+//         document.write(`
+//         <li>${item}</li>
+//         `);
+//     }
+//         document.write(`</ul>`);
+// }
+// foo(array);
+
+// створити функцію,яка створює параграф з текстом.Текст задати через аргумент
+// function foo(text) {
+//     document.write(`<p>${text}</p>`)
+// }
+// foo(`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quasi!`)
+
+//створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+
+// function area(a,b) {
+//     let result = (a+b)*2;  //замість двох рядків(176 і 177) можна зробити один
+//     return result;        //return (a+b)*2;
+// }
+// console.log(area(10,20));
+
+// function creatorLi(text) {
+//     document.write(`<ul>`);
+//     document.write(`<li>${text}</li>`)
+//     document.write(`<li>${text}</li>`)
+//     document.write(`<li>${text}</li>`)
+//     document.write(`</ul>`);
+// }
+// creatorLi(`lorem gdjejd fhdj fhdh `)
+
+// function creatorUl(text,count) {
+//     document.write(`<ul>`);
+//     for (let i = 0; i < count; i++) {
+//         document.write(`<li>${text}</li>`);
+//     }
+//     document.write(`</ul>`);
+// }
+// console.log(creatorUl(`Hello`,5))
+
+
+// function sum(numbers) {
+//     let basket = 0;
+//     for (const number of numbers) {
+//         basket += number;
+//     }
+//     return basket;
+// }
+// console.log(sum([1,2,10]));
+
+// function swap(arr,index1,index2) {
+//     let v1 = arr[index1];
+//     let v2 = arr[index2];
+//     arr[index1] = v2;
+//     arr[index2] = v1;
+//     return arr;
+// }
+// console.log(swap([11,22,33,44,55],0,4));
+
+// function exchange(uah,currencies,exitCurrency) {
+//     for (const item of currencies) {
+//         if (item.currency===exitCurrency){
+//             return uah/item.value;
+//         }
+//
+//     }
+// }
+// console.log(exchange(10000, [{currency: 'EUR', value: 42}, {currency: 'USD', value: 40}, {currency: 'CAD', value: 29}], 'USD'));)
+
+// стрілочні функції!!!
+// звичайна функція:
+// function sayHello() {
+//     console.log(`hello`);
+// }
+// sayHello();
+// //стрілочна функція:
+// const sayHello2 = () => {
+//     console.log(`hello 2`);
+// };
+// sayHello2();
+
+// const sum = (a, b) => {
+//     return a + b;
+// };
+// console.log(sum(10, 5));
+//
+// //скорочення в стрілочній функції, його можна викоритовувати, коли в нас є простесенький результат , який поміщається в одному рядку
+// const sum2 = (a, b) => a + b;
+// console.log(sum2(10,5));
+

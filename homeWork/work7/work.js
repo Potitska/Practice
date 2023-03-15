@@ -97,6 +97,7 @@
 // }
 //
 // const auto = new Car('BMW', 'qqq', 2000, 220, 2.4);
+
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна
 // швидкість, об'єм двигуна. додати в об'єкт функції:
@@ -105,7 +106,61 @@
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-
+// class Car {
+//     constructor(model, producer, year, maxSpeed, volume) {
+//         this.model = model;
+//         this.producer = producer;
+//         this.year = year;
+//         this.maxSpeed = maxSpeed;
+//         this.volume = volume;
+//     }
+//
+//     drive() {
+//         return `їдемо зі швидкістю ${this.maxSpeed} на годину`
+//     }
+//
+//     info() {
+//         console.log('****info***')
+//         for (const key in this) {
+//             console.log(`${key}-${this[key]}`)
+//         }
+//     }
+//
+//     increaseMaxSpeed(newSpeed) {
+//         const speed = this.maxSpeed += newSpeed
+//         // this.maxSpeed = speed < 0 ? 0 : speed;
+//         if (speed <0){
+//             this.maxSpeed=0;
+//         }else{
+//             this.maxSpeed=speed;
+//         }
+//     }
+//
+//     changeYear(newValue) {
+//         this.year = newValue;
+//     }
+//
+//     addDriver(name,age,experience) {
+//        new Driver(name,age,experience)
+//     }
+// }
+//
+// class Driver {
+//     constructor(name,age,experience) {
+//         this.name =name;
+//         this.age = age;
+//         this.experience = experience;
+//     }
+// }
+// const car1 = new Car('Q7', 'Audi', 2017, 300, 3.8)
+// console.log(car1.drive());
+// car1.info()
+// car1.increaseMaxSpeed(-2000)
+// car1.info()
+// car1.changeYear(1300);
+// car1.info()
+// car1.addDriver('Max',19,1)
+// car1.info()
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
@@ -153,3 +208,46 @@
 //
 // const add = array.find(value => value.size === 36);
 // console.log(add);
+//true variant
+// class Human{
+//     constructor(name,age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+//
+// }
+//
+// class Popeleshka extends Human{  // задопомогою extends ми можемо мати родичів
+//     constructor(name,age,footSize) {
+//         super(name,age);
+//         this.footSize = footSize;
+//     }
+// }
+//
+// class Prince extends Human {
+//     constructor(name,age,bootSize) {
+//         super(name,age);
+//         this.bootSize = bootSize;
+//     }
+//     findPrincess(arr){
+//         for (const candidate of arr) {
+//             if (candidate.footSize === this.bootSize){
+//                 return candidate;
+//             }
+//         }
+//     }
+// }
+// const popelArr = [
+//     new Popeleshka('Anna',25,39),
+//     new Popeleshka('Anna',25,37),
+//     new Popeleshka('Anna',25,36),
+//     new Popeleshka('Anna',25,35),
+//     new Popeleshka('Anna',25,34),
+//     new Popeleshka('Anna',25,40),
+//     new Popeleshka('Anna',25,41),
+//     new Popeleshka('Anna',25,42),
+//     new Popeleshka('Anna',25,33),
+//     new Popeleshka('Anna',25,44)
+// ]
+// const prince = new Prince('Dima',18,36)
+// console.log(prince.findPrincess(popelArr));
